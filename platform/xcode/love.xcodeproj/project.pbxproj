@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		6A8913572B2394BC008DD1AC /* GachaGacha.love in Resources */ = {isa = PBXBuildFile; fileRef = 6A8913562B2394BC008DD1AC /* GachaGacha.love */; };
 		8D11072F0486CEB800E47090 /* Cocoa.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1058C7A1FEA54F0111CA2CBB /* Cocoa.framework */; };
 		A9255DD31043183600BA1496 /* Lua.framework in Copy Frameworks */ = {isa = PBXBuildFile; fileRef = A93E6E5310420B57007D418B /* Lua.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, ); }; };
 		A9255E031043195A00BA1496 /* vorbis.framework in Copy Frameworks */ = {isa = PBXBuildFile; fileRef = A9255E021043195A00BA1496 /* vorbis.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, ); }; };
@@ -101,6 +102,7 @@
 
 /* Begin PBXFileReference section */
 		1058C7A1FEA54F0111CA2CBB /* Cocoa.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Cocoa.framework; path = /System/Library/Frameworks/Cocoa.framework; sourceTree = "<absolute>"; };
+		6A8913562B2394BC008DD1AC /* GachaGacha.love */ = {isa = PBXFileReference; lastKnownFileType = file; name = GachaGacha.love; path = "../../../gachagacha-game/GachaGacha.love"; sourceTree = "<group>"; };
 		8D1107320486CEB800E47090 /* love.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = love.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		A9255E021043195A00BA1496 /* vorbis.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = vorbis.framework; path = macosx/Frameworks/vorbis.framework; sourceTree = "<group>"; };
 		A9255F51104324D700BA1496 /* ogg.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = ogg.framework; path = macosx/Frameworks/ogg.framework; sourceTree = "<group>"; };
@@ -201,6 +203,7 @@
 		29B97314FDCFA39411CA2CEA /* love */ = {
 			isa = PBXGroup;
 			children = (
+				6A8913562B2394BC008DD1AC /* GachaGacha.love */,
 				FA5D249A1A96CF4300C6FC8F /* Images.xcassets */,
 				FAF5F96C233965DF0030A68A /* love.entitlements */,
 				19C28FACFE9D520D11CA2CBB /* Products */,
@@ -388,6 +391,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				6A8913572B2394BC008DD1AC /* GachaGacha.love in Resources */,
 				FA5933751C6D625B000EC779 /* Images.xcassets in Resources */,
 				FAC1A449196F5DC600125284 /* license.txt in Resources */,
 			);
@@ -464,6 +468,7 @@
 					"$(inherited)",
 					"@executable_path/../Frameworks",
 				);
+				MACOSX_DEPLOYMENT_TARGET = 10.13;
 				MARKETING_VERSION = 11.5;
 				PRODUCT_BUNDLE_IDENTIFIER = org.love2d.love;
 				PRODUCT_NAME = love;
@@ -496,6 +501,7 @@
 					"$(inherited)",
 					"@executable_path/../Frameworks",
 				);
+				MACOSX_DEPLOYMENT_TARGET = 10.13;
 				MARKETING_VERSION = 11.5;
 				PRODUCT_BUNDLE_IDENTIFIER = org.love2d.love;
 				PRODUCT_NAME = love;
@@ -912,6 +918,7 @@
 					"$(inherited)",
 					"@executable_path/../Frameworks",
 				);
+				MACOSX_DEPLOYMENT_TARGET = 10.13;
 				MARKETING_VERSION = 11.5;
 				PRODUCT_BUNDLE_IDENTIFIER = org.love2d.love;
 				PRODUCT_NAME = love;
